@@ -1,0 +1,11 @@
+Design a creative UI using Python's tkinter module to calculate the total cost of a pizza. The UI should have (at least) each widget that was covered in class:
+
+Frames
+Labels
+input box
+buttons
+radio buttons
+check boxes
+You can use check boxes for for selecting toppings (each with a different cost), radio buttons for the type of crust selected (each with a different cost), buttons for calculation and quit. The input box can be used to record the name of the person placing the order. Use a message box to display the total cost of the pizza along with the name of the person placing the order.
+
+Make sure your design is well laid out and intuitive to the user. Take account of spacing and packing so that everything is properly aligned and professional looking. Be creative with font, color, size, etc.
