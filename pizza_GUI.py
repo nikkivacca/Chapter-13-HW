@@ -5,8 +5,6 @@ class Pizza:
 
     def __init__(self):
         self.main_window = tkinter.Tk()
-        self.main_window.geometry('400x150')
-        self.main_window.configure(bg= 'red')
         self.name_frame = tkinter.Frame(self.main_window)
         self.toppings_frame = tkinter.Frame(self.main_window)
         self.crust_frame = tkinter.Frame(self.main_window)
@@ -76,13 +74,11 @@ class Pizza:
 
 
 ## packing frames 
-        self.name_frame.pack('top')
-        self.toppings_frame.pack('top')
-        self.crust_frame.pack('top')
-        self.buttons_frame.pack('top')
-        self.message_frame.pack('top')
-
-
+        self.name_frame.pack(side ='top')
+        self.toppings_frame.pack(side = 'right')
+        self.crust_frame.pack(side = 'left')
+        self.buttons_frame.pack(side = 'bottom')
+        self.message_frame.pack(side = 'top')
 
 
         tkinter.mainloop()
